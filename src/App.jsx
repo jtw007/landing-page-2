@@ -1,9 +1,13 @@
 import { useState } from 'react'
 
+// sections import
+import Navbar from './sections/Navbar'
 
 function App() {
   return(
-    <div>hello</div>
+    <div className='app'>
+      { <Navbar />}
+    </div>
   )
 }
 
